@@ -4,9 +4,6 @@ use std::thread;
 use std::net::SocketAddr;
 use std::str::FromStr;
 
-mod config;
-mod gui;
-
 fn main() {
     let args: Vec<String> = args().collect();
 
@@ -19,8 +16,6 @@ fn main() {
         }
         return;
     }
-
-    gui::run();
 }
 
 fn server(args: &[String]) {
