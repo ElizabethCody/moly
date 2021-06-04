@@ -11,8 +11,8 @@ UDP hole punch tool using a relay server
   ```
   moly host PORT NAME SERVER
   ```
-  Where PORT is the port to which the service you want to make accessible over moley is bound and NAME is the name with
-  which moley will register on the server reachable with the address given as SERVER
+  Where PORT is the port to which the service you want to make accessible over moly is bound and NAME is the name with
+  which moly will register on the server reachable with the address given as SERVER
 - Connect as client:
   ```
   moly client PORT NAME SERVER
